@@ -175,6 +175,8 @@ public class Main {
 //        Segments sg = new Segments();
 //        System.out.println("Number of segments is"+sg.countSegments(""));
 
+                Reverse rv= new Reverse();
+        System.out.println("Reverse is" + " " + rv.reverseMethod("nishita"));
 //        Reverse1 rv= new Reverse1();
 //        System.out.println("Reverse is" + " " + rv.reverseString("nishita"));
 
@@ -204,8 +206,8 @@ public class Main {
 //        String strs[]={"a","a","b"};
 //        System.out.println("Least Common prefix is"+" "+lcp.longestCommonPrefix(strs));
 
-        RansomNotes rn = new RansomNotes();
-        System.out.println("Can construct"+" "+rn.canConstruct("a", "b"));
+//        RansomNotes rn = new RansomNotes();
+//        System.out.println("Can construct"+" "+rn.canConstruct("a", "b"));
 
     }
 }

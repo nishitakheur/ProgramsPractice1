@@ -7,22 +7,17 @@ public class Reverse{
 
     public String reverseMethod(String myString)
     {
-        if(myString == null || myString.isEmpty())
+        if(myString==null||myString.isEmpty())
         {
-            return "Empty";
+            return "";
         }
-        char chArr[] = myString.toCharArray();
-        Stack<Character>  stck = new Stack<Character>();
-        for(int i=0; i<chArr.length;i++)
+        StringBuilder sbr = new StringBuilder();
+        char ch[] = myString.toCharArray();
+        for (int i=myString.length()-1;i>=0;i--)
         {
-            stck.push(chArr[i]);
+            sbr.append(ch[i]);
         }
-        StringBuilder strBuild = new StringBuilder();
-        for(int i=0; i<chArr.length;i++)
-        {
-            strBuild.append(stck.pop());
-        }
-        return strBuild.substring(0,chArr.length);
+        return sbr.substring(0,myString.length());
 
     }
 }
