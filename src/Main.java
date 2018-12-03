@@ -175,10 +175,12 @@ public class Main {
 //        Segments sg = new Segments();
 //        System.out.println("Number of segments is"+sg.countSegments(""));
 
-                Reverse rv= new Reverse();
-        System.out.println("Reverse is" + " " + rv.reverseMethod("nishita"));
-//        Reverse1 rv= new Reverse1();
-//        System.out.println("Reverse is" + " " + rv.reverseString("nishita"));
+//        Reverse rv= new Reverse();
+        //System.out.println("Reverse is" + " " + rv.reverseMethod("nishita is a good  girl "));
+        //System.out.println("Reverse is" + " " + rv.reverseSentence("nishita is a good  girl "));
+
+        Reverse1 rv= new Reverse1();
+        System.out.println("Reverse is" + " " + rv.reverseStringSpecial("Th!s"));
 
 //        Reverse2 rv= new Reverse2();
 //        System.out.println("Reverse is" + " " + rv.reverseWords("the sky is blue"));
