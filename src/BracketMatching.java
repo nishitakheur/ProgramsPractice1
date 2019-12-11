@@ -10,6 +10,9 @@
 //make sure to use else if
 //Charcter to char is made by (char)
 //stck.isEmpty()
+//https://leetcode.com/problems/valid-parentheses/
+//return stck.isempty is super duper important
+//stack.isempty check should be before the pop
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -34,8 +37,6 @@ public class BracketMatching {
                     return false;
         }
         return stck.isEmpty();
-
-
 
     }
 }

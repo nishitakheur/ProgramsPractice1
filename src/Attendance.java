@@ -1,6 +1,7 @@
 //(a[i] == a[i + 1])&&a[i+1]== a[i + 2]) use && to compare 3 items
 //Dont ignore if late condition
 //ALWAYS REMEMEBER hm.get could give a nnull pointer
+//https://leetcode.com/problems/student-attendance-record-i/
 
 import java.util.HashMap;
 

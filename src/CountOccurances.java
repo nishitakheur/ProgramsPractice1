@@ -1,5 +1,6 @@
 import java.util.HashMap;
-
+//https://leetcode.com/problems/unique-number-of-occurrences/submissions/
+//Hashset to add elements, you use hs.add
 
 /**
  * Created by nishita.kheur on 2/3/17.

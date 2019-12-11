@@ -1,5 +1,3 @@
-import sun.jvm.hotspot.memory.Space;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.TreeMap;
@@ -7,10 +5,21 @@ import java.util.TreeMap;
 public class Main {
 
     public static void main(String[] args) {
+//        CountSay cs= new CountSay();
+//        System.out.println(cs.countAndSay(4));
+
+//        CountWithoutMap cm = new CountWithoutMap();
+//        String a[]= {"1","1","1","2","2","3"};
+//        cm.countWithoutMap(a);
 //        System.out.println("Hello World!");
 //
 //        CountOccurances co = new CountOccurances();
 //        co.countOccurancesMethod("fukekdkkkdefwy");
+//        UniqueOccurances2 uo2 = new UniqueOccurances2();
+//        //int[] arr = {1,2,2,1,1,3};
+//        int[] arr = {1,2};
+//
+//        System.out.println(uo2.uniqueOccurrences(arr));
 //
 //        Anagram an = new Anagram();
 //        Boolean ana = an.anagramMethod("asdasd", "aassdd");
@@ -113,7 +122,8 @@ public class Main {
 //        int a[]={1,2,3,4,5};
 //        System.out.println("Number of unique pairs is"+" "+dk.diffIsKMethod(a,2));
 
-//        int a[]={1,1,0,1,1,1};
+//        //int a[]={1,1,1,1,1,1};
+//        int a[]={1};
 //        ConsequitiveOnes co = new  ConsequitiveOnes();
 //        System.out.print("Consequitive maximum ones are"+" "+co.findMaxConsecutiveOnes(a));
 
@@ -175,8 +185,17 @@ public class Main {
 //        Segments sg = new Segments();
 //        System.out.println("Number of segments is"+sg.countSegments(""));
 
+<<<<<<< Updated upstream
 //        Reverse1 rv= new Reverse1();
 //        System.out.println("Reverse is" + " " + rv.reverseString("nishita"));
+=======
+//        Reverse rv= new Reverse();
+        //System.out.println("Reverse is" + " " + rv.reverseMethod("nishita is a good  girl "));
+        //System.out.println("Reverse is" + " " + rv.reverseSentence("nishita is a good  girl "));
+
+//        Reverse1 rv= new Reverse1();
+//        System.out.println("Reverse is" + " " + rv.reverseStringSpecial("Th!s"));
+>>>>>>> Stashed changes
 
 //        Reverse2 rv= new Reverse2();
 //        System.out.println("Reverse is" + " " + rv.reverseWords("the sky is blue"));
@@ -184,9 +203,9 @@ public class Main {
 //        Reverse3 rv= new Reverse3();
 //        System.out.println("Reverse is" + " " + rv.reverseEveryWord("the sky is blue"));
 
-//        Kthfrequent kf =new Kthfrequent();
-//        int a[]={1,1,1,2,2,3};
-//        kf.topKFrequent(a,2);
+        Kthfrequent kf =new Kthfrequent();
+        int a[]={1,1,1,2,2,3};
+        kf.topKFrequent(a,2);
 
 //        FindString fs = new FindString();
 //        System.out.println("Index of the first occurrence of needle in haystack is"+" "+fs.strStr("nishita","ish"));
@@ -206,6 +225,14 @@ public class Main {
 
         RansomNotes rn = new RansomNotes();
         System.out.println("Can construct"+" "+rn.canConstruct("a", "b"));
+
+//        Compression2 cmp2 = new Compression2();
+//        //char ch[] = {'a','a','b','b','c','c','c'};
+//        //har ch[] = {'a'};
+//        char ch[] = {'a','b','b','b','b','b','b','b','b','b','b','b','b'};
+//
+//        int op = cmp2.compress(ch);
+//        System.out.println(op);
 
     }
 }

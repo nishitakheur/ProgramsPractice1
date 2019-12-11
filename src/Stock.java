@@ -13,13 +13,15 @@ public class Stock {
 //            }
 //        }
 //        return profit;
-        int profit=0;
-        int min_price= Integer.MAX_VALUE;
-        for(int i=0;i<prices.length;i++)
+        int minValue = Integer.MAX_VALUE;
+        int maxProfit=0;
+        for(int i=0; i< prices.length;i++)
         {
-            min_price= Math.min(min_price,prices[i]);
-            profit= Math.max(profit,prices[i]-min_price);
+            minValue = Math.min(minValue, prices[i]);
+            maxProfit = Math.max(maxProfit, prices[i]-minValue);
         }
-        return profit;
+        return  maxProfit;
+
+
     }
 }
